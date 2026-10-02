@@ -9,3 +9,7 @@
 **Result:** 88.3% test accuracy after 3 epochs.
 
 **Tools:** Python, TensorFlow/Keras, matplotlib.
+
+## Limitations
+
+The model was trained only on CIFAKE, which contains small 32x32 images from one source. Because of this, it may misclassify high-resolution photos or images from other AI generators.
